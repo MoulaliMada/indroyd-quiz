@@ -10,12 +10,12 @@ const Welcome = (props) => {
     if (inputName === "") {
       setWarning(true);
     } else {
-      submiting("namaste");
+      submiting(inputName);
+      setWarning(false)
     }
   };
   const onChangeInput = (event) => {
     setInputName(event.target.value);
-    console.log(event.target.value);
   };
   return (
     <div className="welcom-bg-container">

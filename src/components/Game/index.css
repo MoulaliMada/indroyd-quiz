@@ -1,0 +1,63 @@
+.playing-bg-container {
+  background-color: rgb(235, 232, 232);
+  min-height: 100vh;
+  height: 100%;
+  padding-top: 15px;
+}
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+}
+.name {
+  font-size: 18px;
+  margin: 0;
+  width: 70%;
+}
+.endpractice {
+  color: #540777;
+  font-size: 15px;
+  margin: 0;
+}
+.attemts {
+  font-size: 17px;
+  margin: 2px;
+}
+.attemts-endpractice-container{
+    width: 30%;
+}
+.mcq-bg-container{
+    padding: 20px;
+}
+.mcq-container{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    
+}
+.question{
+    font-size: 15px;
+}
+.ul-options{
+    list-style-type: none;
+    padding: 5px;
+}
+.submit-btn2{
+    background-color: rgb(56, 56, 243);
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 7px;
+    padding-left: 21px;
+    padding-right: 21px;
+    border-radius: 5px;
+    align-self: center;
+}
+.option{
+    border-color: rgb(198, 196, 196);
+    border-style: solid;
+    margin-bottom: 5px;
+}
